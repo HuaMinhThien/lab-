@@ -25,7 +25,7 @@ void Bai1(){
     // strlen(s) - 1 trả về chiều dài thực tế của chuỗi
     for (int i = 0; i < strlen(s) - 1; i++ ) {
         if (s[i] >= 'A' && s[i] <= 'Z') {
-            if (s[i] == 'A'
+            if (s[i] == 'A'     // ||: là kí hiệu của chữ hoặc 
                 || s[i] == 'E'
                 || s[i] == 'I'
                 || s[i] == 'O'
